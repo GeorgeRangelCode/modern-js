@@ -65,3 +65,11 @@ console.log(groupedByPowerLevel);
 //  "omega": [{ "name": "Hulk", "powerLevel": 9000 }, { "name": "Black Widow", "powerLevel": 9999 }],
 //  "beta": [{ "name": "Thor", "powerLevel": 4500 }, { "name": "Captain America", "powerLevel": 2000 }]
 // }
+
+// union method
+const set1 = new Set([1, 2, 3, 4, 5]);
+const set2 = new Set([2, 3, 4, 5, 6]);
+
+const union = set1.union(set2);
+
+console.log(union); // Set(1, 2, 3, 4, 5, 6)
