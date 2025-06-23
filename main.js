@@ -112,3 +112,11 @@ const set12 = new Set([2, 3, 4, 5, 6]);
 const isSuperset = set11.isSupersetOf(set12);
 
 console.log("isSuperset", isSuperset); // false
+
+// isDisjointFrom method
+const set13 = new Set(["JavaScript", "Python"]);
+const set14 = new Set(["Java", "TypeScript"]);
+
+const isDisjoint = set13.isDisjointFrom(set14);
+
+console.log("isDisjoint", isDisjoint); // true
