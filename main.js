@@ -72,4 +72,12 @@ const set2 = new Set([2, 3, 4, 5, 6]);
 
 const union = set1.union(set2);
 
-console.log(union); // Set(1, 2, 3, 4, 5, 6)
+console.log("union", union); // Set(1, 2, 3, 4, 5, 6)
+
+// intersection method
+const set3 = new Set([1, 2, 3, 4, 5]);
+const set4 = new Set([2, 3, 4, 5, 6]);
+
+const intersection = set3.intersection(set4);
+
+console.log("intersection", intersection); // Set(2, 3, 4, 5)
