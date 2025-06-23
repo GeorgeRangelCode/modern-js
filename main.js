@@ -104,3 +104,11 @@ const set10 = new Set([2, 3, 4, 5, 6]);
 const isSubset = set9.isSubsetOf(set10);
 
 console.log("isSubset", isSubset); // false
+
+// isSupersetOf method
+const set11 = new Set([1, 2, 3, 4, 5]);
+const set12 = new Set([2, 3, 4, 5, 6]);
+
+const isSuperset = set11.isSupersetOf(set12);
+
+console.log("isSuperset", isSuperset); // false
