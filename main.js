@@ -81,3 +81,11 @@ const set4 = new Set([2, 3, 4, 5, 6]);
 const intersection = set3.intersection(set4);
 
 console.log("intersection", intersection); // Set(2, 3, 4, 5)
+
+// difference method
+const set5 = new Set([1, 2, 3, 4, 5]);
+const set6 = new Set([2, 3, 4, 5, 6]);
+
+const difference = set5.difference(set6);
+
+console.log("difference", difference); // Set(1)
