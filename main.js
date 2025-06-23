@@ -89,3 +89,10 @@ const set6 = new Set([2, 3, 4, 5, 6]);
 const difference = set5.difference(set6);
 
 console.log("difference", difference); // Set(1)
+
+const set7 = new Set([1, 2, 3, 4, 5]);
+const set8 = new Set([2, 3, 4, 5, 6]);
+
+const symmetricDifference = set7.symmetricDifference(set8);
+
+console.log("symmetricDifference", symmetricDifference); // Set(1, 6)
