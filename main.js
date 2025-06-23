@@ -96,3 +96,11 @@ const set8 = new Set([2, 3, 4, 5, 6]);
 const symmetricDifference = set7.symmetricDifference(set8);
 
 console.log("symmetricDifference", symmetricDifference); // Set(1, 6)
+
+// isSubsetOf method
+const set9 = new Set([1, 2, 3, 4, 5]);
+const set10 = new Set([2, 3, 4, 5, 6]);
+
+const isSubset = set9.isSubsetOf(set10);
+
+console.log("isSubset", isSubset); // false
